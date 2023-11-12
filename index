@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+
+    <base href=".">
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+    <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
+    <meta name="description" content="Conference Template">
+    <meta name="resource-type" content="document">
+    <meta name="distribution" content="global">
+    <meta name="KeyWords" content="Conference">
+     <script src="assets/email-obfuscator.js"></script>
+    <title>CLAN (Clusters and their Applications in the North)</title>
+</head>
+
+<body>
+
+    <div class="banner">
+        <img src="assets/Harris-Museum-23.jpg" alt="Conference Template Banner">
+        <div class="top-left">
+            <span class="title1"><font size="2">CLAN (Clusters and their Applications in the North)</font> </span><span class="year">2023</span>
+        </div>
+        <div class="bottom-right">
+            Durham; Glasgow; Lancaster; Leeds; Preston
+        </div>
+    </div>
+
+    <table class="navigation">
+        <tr>
+            <td class="navigation">
+                <a class="current" title="Research Group Home Page" href=".">CLAN Research Group</a>
+            </td>
+            <td class="navigation">
+                <a title="Upcoming Meetings" href="upcoming">Upcoming Meetings</a>
+            </td>
+            <td class="navigation">
+                <a class="Past meetings" title="Past Meetings" href="past">Past Meetings</a>  
+            </td>
+        </tr>
+    </table>
+    
+    <h2>About</h2>
+    <p>
+Cluster theory is a significant mathematical success story, with its study having permeated many subjects in mathematics and mathematical physics despite its relatively recent introduction at the turn of the millennium.
+Indeed, the combinatorics of exchanges, central to Fomin and Zelevinsky’s definition of cluster algebras, has incarnations in contexts as diverse as topology and complex analysis (Skein relations), algebraic geometry (flopping curves) and representation theory (mutations of tilting and silting objects).
+This ubiquity has led to striking applications including Keller’s proof of the Zamolodchikov periodicity conjecture, Wemyss’ homological minimal model programme, and computations of scattering amplitudes in theoretical physics. 
+In recent years, the north of the UK has become a hotbed of research groups interacting with different aspects of cluster theory -- the CLAN network seeks to bring together this growing community and provide regular opportunities for close collaboration.
+</p>
+    
+  
+    <h2>Mailing List</h2>
+    <p>
+    If you need the mailing list, please email Jon <span id="organiser-email"></span>
+                <noscript>(email hidden, enable JavaScript)</noscript>
+</p>
+
+
+    <h2>Support</h2>
+    <p>
+        The conference is generously supported by the the <a href="https://www.lms.ac.uk/">London Mathematical Society</a> Scheme 3 grant.
+    </p>
+    <table class="sponsors">
+        <tr>
+            </td>
+            <td class="sponsor">
+                <a href="https://www.lms.ac.uk/">
+                    <img src="assets/LMS-logo.png" alt="First Sponsor Name">
+                </a>
+            </td>
+        </tr>
+    </table>
+
+    <footer>
+        CLAN (Clusters and their Applications in the North) &nbsp;|&nbsp; Original design by <a href="https://org.coloradomesa.edu/~mapierce2/">Mike Pierce</a>
+    </footer>
+
+</body>
+</html>
