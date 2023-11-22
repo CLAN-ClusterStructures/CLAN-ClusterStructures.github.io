@@ -26,6 +26,6 @@
 window.onload = function () {
     
     // CLAN  
-    document.getElementById("CLAN-email").innerHTML="<n uers=\"znvygb:pyna.pyhfgrefgehpgherf@tznvy.pbz\" gnetrg=\"_oynax\"></n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
+    document.getElementById("CLANemail").innerHTML="<n uers=\"znvygb:pyna.pyhfgrefgehpgherf@tznvy.pbz\" gnetrg=\"_oynax\">pyna.pyhfgrefgehpgherf@tznvy.pbz</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
     
 };
