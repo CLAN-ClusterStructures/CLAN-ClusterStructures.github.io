@@ -29,10 +29,3 @@ window.onload = function () {
     document.getElementById("CLAN-email").innerHTML="<n uers=\"znvygb:pyna.pyhfgrefgehpgherf@tznvy.pbz\" gnetrg=\"_oynax\"></n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
     
 };
-
-window.onload = function () {
-    
-    // Jon Wilson
-   document.getElementById("organiser-email").innerHTML="<n uers=\"znvygb:wjvyfba30@hpyna.np.hx\" gnetrg=\"_oynax\">wjvyfba30@hpyna.np.hx</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
-    
-};
