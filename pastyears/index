@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+
+    <base href="..">
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+    <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
+    <meta name="description" content="Conference Template">
+    <meta name="resource-type" content="document">
+    <meta name="distribution" content="global">
+    <meta name="KeyWords" content="Conference">
+     <script src="assets/email-obfuscator.js"></script>
+    <title>CLAN (Clusters and their Applications in the North)</title>
+</head>
+
+<body>
+
+
+  <div class="banner">
+        <img src="assets/CLANphoto.jpeg" alt="Conference Template Banner" style="width: 100%">
+    </div>
+
+    <table class="navigation">
+        <tr>
+            <td class="navigation">
+                <a title="Research Group Home Page" href=".">CLAN Research Group</a>
+            </td>
+            <td class="navigation">
+                <a title="Upcoming Meetings" title="Upcoming Meetings" href="upcoming">Upcoming Meetings</a>
+            </td>
+            <td class="navigation">
+                <a class="current" href="past">Past Meetings</a>  
+            </td>
+        </tr>
+    </table>
+
+    <h3>Past Meetings </h3>
+
+	<h1>{{ page.title }}</h1>
+	<ul class="posts">
+  
+  	  {% for post in site.posts %}
+        <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+  	  {% endfor %}
+  	</ul>
+
+    
+
+    
+    <footer>
+        CLAN (Clusters and their Applications in the North) &nbsp;|&nbsp; Original design by <a href="https://org.coloradomesa.edu/~mapierce2/">Mike Pierce</a>
+    </footer>
+    
+
+
+</body>
+</html>
